@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Home</title>
+        
+    </head>
+    <body>
+        <script type="text/javascript" src="{% static 'js/check.js' %}"></script>
+        <form name="my_form" onsubmit="check()">
+            <input type="text" name="uname" />
+            <br/>
+            <input type="submit" name="submit" value="Check"/>
+        </form>
+    </body>
+</html>
